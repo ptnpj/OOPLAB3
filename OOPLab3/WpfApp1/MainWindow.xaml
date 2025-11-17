@@ -1,0 +1,22 @@
+﻿<Window x:Class="Lab3_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Lab 3" Height="450" Width="600">
+    <Grid Margin="10">
+        <StackPanel>
+            <Label Content="Кількість елементів масиву (n):"/>
+            <TextBox Name="InputN" Width="100" HorizontalAlignment="Left" Margin="0,0,0,10"/>
+
+            <Button Content="Згенерувати та Опрацювати" Click="Button_Click" Width="200" HorizontalAlignment="Left" Margin="0,0,0,10"/>
+
+            <Label Content="Початковий масив:" FontWeight="Bold"/>
+            <TextBox Name="OriginalArrayOutput" TextWrapping="Wrap" Height="60" IsReadOnly="True" VerticalScrollBarVisibility="Auto"/>
+
+            <Label Content="Результат 1 (Сума модулів):" FontWeight="Bold" Margin="0,10,0,0"/>
+            <TextBox Name="ResultSumOutput" IsReadOnly="True"/>
+
+            <Label Content="Результат 2 (Масив після сортування):" FontWeight="Bold" Margin="0,10,0,0"/>
+            <TextBox Name="SortedArrayOutput" TextWrapping="Wrap" Height="60" IsReadOnly="True" VerticalScrollBarVisibility="Auto"/>
+        </StackPanel>
+    </Grid>
+</Window>
