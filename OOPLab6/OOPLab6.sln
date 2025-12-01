@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "console", "console\console.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simpleLibrary", "simpleLibrary\simpleLibrary.csproj", "{D2B3DC2F-5CEC-4E86-B5F1-ECA67ABA1CB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab10", "console2\lab10.csproj", "{B5A6F9BC-FAA8-4FA1-AF2F-DF5477976210}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{D2B3DC2F-5CEC-4E86-B5F1-ECA67ABA1CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2B3DC2F-5CEC-4E86-B5F1-ECA67ABA1CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2B3DC2F-5CEC-4E86-B5F1-ECA67ABA1CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5A6F9BC-FAA8-4FA1-AF2F-DF5477976210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A6F9BC-FAA8-4FA1-AF2F-DF5477976210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A6F9BC-FAA8-4FA1-AF2F-DF5477976210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A6F9BC-FAA8-4FA1-AF2F-DF5477976210}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
